@@ -1,0 +1,116 @@
+body{
+    background-color: #0D0D0D;
+    display: flex;
+    flex-direction: row;
+}
+.logo{
+    color:#FF3366;
+}
+.Navbar{
+    background-color: #1A1A2E;
+    height: 600px;
+    width: 200px;
+}
+a{
+    text-decoration: none;
+    color: #C0C0C8;
+}
+.Nav-list{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+
+}
+.container{
+    background-color: #0D0D0D;
+    height: 600px;
+    width: 1300px;
+    text-align: center;
+    
+}
+.small-container{
+    height: 250px;
+    width: 1240px;
+    margin: 20px;
+    background-image: url(./bigimage.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 30%;
+
+    
+    
+}
+.small-container1{
+    height: 250px;
+    width: 1240px;
+    margin: 35px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+#card1{
+    background-color: #1A1A2E;
+    height: 200px;
+    width: 350px;
+    text-align: center;
+    justify-items: center;
+    color: #C0C0C8;
+
+}
+#card2{
+    background-color: #1A1A2E;
+    height: 200px;
+    width: 350px;
+    justify-items: center;
+    color: #C0C0C8;
+}
+#card3{
+    background-color:#1A1A2E;
+    height: 200px;
+    width: 350px;
+    justify-items: center;
+    color: #C0C0C8;
+}
+#minicard1{
+    background-color: white;
+    height: 100px;
+    width: 100px;
+    background-image: url(./whatsapp.jpg);
+    background-size: cover;
+}
+#minicard2{
+    background-color: white;
+    height: 100px;
+    width: 100px;
+    background-image: url(./radioimg.jpg);
+    background-size: cover;
+}
+#minicard3{
+    background-color: white;
+    height: 100px;
+    width: 100px;
+    background-image: url(./photo-1544005313-94ddf0286df2.jpg);
+    background-size: cover;
+}
+#newbox{
+    background-color:  rgba(255,255,255,0.0);
+    height: 200px;
+    width: 200px;
+
+}
+button{
+    background-color: #FF3366;
+    height: 30px;
+    width: 60px;
+    border-radius: 10px;
+}
+h4{
+    color: #FF3366;
+}
+h2{
+    color: #C0C0C8;
+}
+h5{
+    color: #C0C0C8;
+}
